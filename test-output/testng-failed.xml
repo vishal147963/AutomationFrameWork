@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <groups>
+      <run>
+        <include name="Retesting"/>
+        <include name="HomePage"/>
+        <include name="contactpage"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.TestLayer.ContactPageTest">
+        <methods>
+          <include name="clickOnCreate"/>
+          <include name="savebutton"/>
+          <include name="EnterContactData"/>
+          <include name="savedata"/>
+        </methods>
+      </class> <!-- com.TestLayer.ContactPageTest -->
+      <class name="com.TestLayer.HomePageTest">
+        <methods>
+          <include name="contactpage"/>
+          <include name="compname"/>
+          <include name="logo"/>
+        </methods>
+      </class> <!-- com.TestLayer.HomePageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

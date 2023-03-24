@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="15" passed="15" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-20T16:28:11 IST" name="Suite" finished-at="2023-03-20T16:28:44 IST" duration-ms="33607">
+    <groups>
+      <group name="HomePage">
+        <method signature="HomePageTest.validateHomePageTitle()[pri:1, instance:com.TestLayer.HomePageTest@477b4cdf]" name="validateHomePageTitle" class="com.TestLayer.HomePageTest"/>
+        <method signature="HomePageTest.geturl()[pri:2, instance:com.TestLayer.HomePageTest@477b4cdf]" name="geturl" class="com.TestLayer.HomePageTest"/>
+        <method signature="HomePageTest.logo()[pri:3, instance:com.TestLayer.HomePageTest@477b4cdf]" name="logo" class="com.TestLayer.HomePageTest"/>
+        <method signature="HomePageTest.compname()[pri:4, instance:com.TestLayer.HomePageTest@477b4cdf]" name="compname" class="com.TestLayer.HomePageTest"/>
+        <method signature="HomePageTest.contactpage()[pri:5, instance:com.TestLayer.HomePageTest@477b4cdf]" name="contactpage" class="com.TestLayer.HomePageTest"/>
+      </group> <!-- HomePage -->
+      <group name="contactpage">
+        <method signature="ContactPageTest.clickOnCreate()[pri:1, instance:com.TestLayer.ContactPageTest@77c2494c]" name="clickOnCreate" class="com.TestLayer.ContactPageTest"/>
+        <method signature="ContactPageTest.EnterContactData(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.TestLayer.ContactPageTest@77c2494c]" name="EnterContactData" class="com.TestLayer.ContactPageTest"/>
+        <method signature="ContactPageTest.savedata()[pri:3, instance:com.TestLayer.ContactPageTest@77c2494c]" name="savedata" class="com.TestLayer.ContactPageTest"/>
+        <method signature="ContactPageTest.savebutton()[pri:4, instance:com.TestLayer.ContactPageTest@77c2494c]" name="savebutton" class="com.TestLayer.ContactPageTest"/>
+      </group> <!-- contactpage -->
+      <group name="Retesting">
+        <method signature="LoginPageTest.validateLoginFuntion()[pri:0, instance:com.TestLayer.LoginPageTest@139982de]" name="validateLoginFuntion" class="com.TestLayer.LoginPageTest"/>
+      </group> <!-- Retesting -->
+      <group name="Regression">
+        <method signature="HomePageTest.validateHomePageTitle()[pri:1, instance:com.TestLayer.HomePageTest@477b4cdf]" name="validateHomePageTitle" class="com.TestLayer.HomePageTest"/>
+        <method signature="HomePageTest.geturl()[pri:2, instance:com.TestLayer.HomePageTest@477b4cdf]" name="geturl" class="com.TestLayer.HomePageTest"/>
+        <method signature="HomePageTest.logo()[pri:3, instance:com.TestLayer.HomePageTest@477b4cdf]" name="logo" class="com.TestLayer.HomePageTest"/>
+        <method signature="HomePageTest.compname()[pri:4, instance:com.TestLayer.HomePageTest@477b4cdf]" name="compname" class="com.TestLayer.HomePageTest"/>
+        <method signature="HomePageTest.contactpage()[pri:5, instance:com.TestLayer.HomePageTest@477b4cdf]" name="contactpage" class="com.TestLayer.HomePageTest"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2023-03-20T16:28:11 IST" name="Test" finished-at="2023-03-20T16:28:44 IST" duration-ms="33607">
+      <class name="com.TestLayer.ContactPageTest">
+        <test-method signature="clickOnCreate()[pri:1, instance:com.TestLayer.ContactPageTest@77c2494c]" started-at="2023-03-20T16:28:32 IST" name="clickOnCreate" depends-on-groups="HomePage" finished-at="2023-03-20T16:28:32 IST" duration-ms="455" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnCreate -->
+        <test-method signature="EnterContactData(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.TestLayer.ContactPageTest@77c2494c]" started-at="2023-03-20T16:28:35 IST" name="EnterContactData" data-provider="contactData" depends-on-groups="HomePage" finished-at="2023-03-20T16:28:37 IST" duration-ms="2217" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[First Name]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Last Name]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Middle Name]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterContactData -->
+        <test-method signature="EnterContactData(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.TestLayer.ContactPageTest@77c2494c]" started-at="2023-03-20T16:28:37 IST" name="EnterContactData" data-provider="contactData" depends-on-groups="HomePage" finished-at="2023-03-20T16:28:39 IST" duration-ms="1301" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tom1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[USA1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Jarry1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterContactData -->
+        <test-method signature="EnterContactData(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.TestLayer.ContactPageTest@77c2494c]" started-at="2023-03-20T16:28:39 IST" name="EnterContactData" data-provider="contactData" depends-on-groups="HomePage" finished-at="2023-03-20T16:28:40 IST" duration-ms="1092" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tom2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[USA2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Jarry2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterContactData -->
+        <test-method signature="EnterContactData(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.TestLayer.ContactPageTest@77c2494c]" started-at="2023-03-20T16:28:40 IST" name="EnterContactData" data-provider="contactData" depends-on-groups="HomePage" finished-at="2023-03-20T16:28:41 IST" duration-ms="1167" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tom3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[USA3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Jarry3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterContactData -->
+        <test-method signature="EnterContactData(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.TestLayer.ContactPageTest@77c2494c]" started-at="2023-03-20T16:28:41 IST" name="EnterContactData" data-provider="contactData" depends-on-groups="HomePage" finished-at="2023-03-20T16:28:42 IST" duration-ms="1137" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tom4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[USA4]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Jarry4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterContactData -->
+        <test-method signature="EnterContactData(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.TestLayer.ContactPageTest@77c2494c]" started-at="2023-03-20T16:28:42 IST" name="EnterContactData" data-provider="contactData" depends-on-groups="HomePage" finished-at="2023-03-20T16:28:43 IST" duration-ms="1134" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tom5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[USA5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Jarry5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterContactData -->
+        <test-method signature="savedata()[pri:3, instance:com.TestLayer.ContactPageTest@77c2494c]" started-at="2023-03-20T16:28:43 IST" name="savedata" depends-on-groups="HomePage" finished-at="2023-03-20T16:28:44 IST" duration-ms="666" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- savedata -->
+        <test-method signature="savebutton()[pri:4, instance:com.TestLayer.ContactPageTest@77c2494c]" started-at="2023-03-20T16:28:44 IST" name="savebutton" depends-on-groups="HomePage" finished-at="2023-03-20T16:28:44 IST" duration-ms="466" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- savebutton -->
+      </class> <!-- com.TestLayer.ContactPageTest -->
+      <class name="com.TestLayer.LoginPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.TestLayer.LoginPageTest@139982de]" started-at="2023-03-20T16:28:11 IST" name="setup" finished-at="2023-03-20T16:28:28 IST" duration-ms="17265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateLoginFuntion()[pri:0, instance:com.TestLayer.LoginPageTest@139982de]" started-at="2023-03-20T16:28:28 IST" name="validateLoginFuntion" finished-at="2023-03-20T16:28:29 IST" duration-ms="982" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginFuntion -->
+      </class> <!-- com.TestLayer.LoginPageTest -->
+      <class name="com.TestLayer.HomePageTest">
+        <test-method signature="validateHomePageTitle()[pri:1, instance:com.TestLayer.HomePageTest@477b4cdf]" started-at="2023-03-20T16:28:29 IST" name="validateHomePageTitle" depends-on-groups="Retesting" finished-at="2023-03-20T16:28:29 IST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHomePageTitle -->
+        <test-method signature="geturl()[pri:2, instance:com.TestLayer.HomePageTest@477b4cdf]" started-at="2023-03-20T16:28:29 IST" name="geturl" depends-on-groups="Retesting" finished-at="2023-03-20T16:28:29 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- geturl -->
+        <test-method signature="logo()[pri:3, instance:com.TestLayer.HomePageTest@477b4cdf]" started-at="2023-03-20T16:28:29 IST" name="logo" depends-on-groups="Retesting" finished-at="2023-03-20T16:28:31 IST" duration-ms="1405" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logo -->
+        <test-method signature="compname()[pri:4, instance:com.TestLayer.HomePageTest@477b4cdf]" started-at="2023-03-20T16:28:31 IST" name="compname" depends-on-groups="Retesting" finished-at="2023-03-20T16:28:31 IST" duration-ms="927" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compname -->
+        <test-method signature="contactpage()[pri:5, instance:com.TestLayer.HomePageTest@477b4cdf]" started-at="2023-03-20T16:28:31 IST" name="contactpage" depends-on-groups="Retesting" finished-at="2023-03-20T16:28:32 IST" duration-ms="536" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactpage -->
+      </class> <!-- com.TestLayer.HomePageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
